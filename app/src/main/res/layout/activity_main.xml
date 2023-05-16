@@ -158,7 +158,7 @@
                             <ImageView
                                 android:layout_width="@dimen/spacing_xmlarge"
                                 android:layout_height="@dimen/spacing_xmlarge"
-                                android:tint="@color/red_200"
+                                android:tint="@color/red_500"
                                 app:srcCompat="@drawable/baseline_favorite_24" />
 
                             <TextView
@@ -292,6 +292,7 @@
                         </LinearLayout>
 
                         <LinearLayout
+                            android:id="@+id/btn_entertain"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center"
@@ -301,15 +302,15 @@
                                 android:layout_width="@dimen/spacing_xmlarge"
                                 android:layout_height="@dimen/spacing_xmlarge"
                                 android:tint="@color/cyan_800"
-                                app:srcCompat="@drawable/baseline_contact_page_24" />
+                                app:srcCompat="@drawable/ic_entertain" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="@dimen/spacing_small"
-                                android:text="Contact Us"
+                                android:text="Entertain"
                                 android:textAppearance="@style/TextAppearance.AppCompat.Caption"
-                                android:textColor="@color/grey_40" />
+                                android:textColor="@color/blue_grey_900" />
 
                         </LinearLayout>
 

@@ -25,6 +25,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, MentalActivity2.class));
             }
         });
+        LinearLayout btn_entertain = findViewById(R.id.btn_entertain);
+        btn_entertain.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, SubKategoriActivity.class));
+            }
+        });
     }
 
     private void initToolbar() {
